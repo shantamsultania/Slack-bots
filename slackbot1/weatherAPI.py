@@ -1,7 +1,7 @@
 import requests
 import json
 
-api_key = "1b5658d16227cbb5655c96093a3564af"
+api_key = "" # get your access token from Open Weathermap.or and insert it here 
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = "London"
 complete_url = base_url + "appid=" + api_key + "&q=" + city_name
