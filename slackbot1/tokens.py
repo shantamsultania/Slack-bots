@@ -3,10 +3,10 @@
 # https://api.slack.com/
 
 def getaccesstoken():
-    Access_Token = "xoxb-1570643505783-1585442759154-IL8Q173U69MGfPsRoAI4kEyN"
+    Access_Token = ""  # enter your token here
     return Access_Token
 
 
 def getEventToken():
-    Event_Token = "7ab9ef1ecefe61788d0fee10057c4716"
+    Event_Token = "" # enter your token here
     return Event_Token
