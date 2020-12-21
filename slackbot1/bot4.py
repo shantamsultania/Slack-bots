@@ -22,7 +22,7 @@ Bot_id = client.api_call('auth.test')['user_id']
 
 
 def get_weather_details(data):
-    api_key = "1b5658d16227cbb5655c96093a3564af"
+    api_key = "" # insert Weather APi key here
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     city_name = data
     complete_url = base_url + "appid=" + api_key + "&q=" + city_name
